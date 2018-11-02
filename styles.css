@@ -1,0 +1,85 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  text-align: center;
+  background-color: #1c1c1c;
+}
+
+h1{
+  padding-top: 20px;
+  font-family: 'Baloo Bhaina', cursive;
+  text-align: center;
+  font-size: 6em;
+  font-weight: bold;
+  color:#379634;
+}
+
+canvas {
+  background: black;
+  box-shadow: 20px 20px 50px #1c1c1c;
+  -webkit-transition: -webkit-transform 1s;
+  -ms-transition: -ms-transform 1s;
+  -o-transition: -o-transform 1s;
+  -moz-transition: -moz-transform 1s;
+}
+
+canvas:hover {
+  height: 202px;
+  width: 198px;
+
+}
+
+#canvasDiv {
+  margin: 20px auto 40px;
+}
+
+ #canvas1{
+   background-image: url("../images/turtle1.png");
+ }
+
+ #canvas2{
+   background-image: url("../images/turtle2.png");
+ }
+
+ #canvas3{
+   background-image: url("../images/turtle3.png");
+ }
+
+ #canvas4{
+   background-image: url("../images/turtle4.png");
+ }
+
+ #canvas5{
+   background-image: url("../images/turtle5.png");
+ }
+
+ #canvas6{
+   background-image: url("../images/turtle6.png");
+ }
+
+ #canvas7{
+   background-image: url("../images/turtle7.png");
+ }
+
+ #canvas8{
+   background-image: url("../images/turtle8.png");
+ }
+
+ #canvas9{
+   background-image: url("../images/turtle9.png");
+ }
+
+#reloadButton {
+  text-decoration: none;
+  color: #379634;
+  text-shadow: 5px 5px 30px #379634;
+  font-family: 'Baloo Bhaina', cursive;
+  font-size: 4em;
+}
+
+#reloadButton:hover {
+font-size: 4.5em;
+}
